@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "28.0.2"
+    defaultConfig {
+        applicationId "wms.googlewms"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            //disable multi apk
+            splits.abi.enable = false
+            splits.density.enable = false
+            ext.alwaysUpdateBuildId = false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com' }
+        //http://repo.boundlessgeo.com/main/
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:27.1.0'
+    compile 'com.android.support:design:27.1.0'
+
+
+    compile 'com.google.maps.android:android-maps-utils:0.5+'
+    //api "com.android.support:support-v4:$SUPPORT_LIBRARY_VERSION"
+    compile 'com.google.android.gms:play-services-maps:15.0.1'
+    compile 'com.google.android.gms:play-services-location:15.0.1'
+
+    // https://mvnrepository.com/artifact/org.opengis/geoapi
+    //compile group: 'org.opengis', name: 'geoapi', version: '3.0.1'
+
+    // https://mvnrepository.com/artifact/org.geotools/gt-referencing
+    //compile group: 'org.geotools', name: 'gt-referencing', version: '20.1'
+
+
+    //https://blog.csdn.net/qq_16064871/article/details/79663631
+    // https://mvnrepository.com/artifact/io.jeo/proj4j
+    compile group: 'io.jeo', name: 'proj4j', version: '0.1.1'
+
+}

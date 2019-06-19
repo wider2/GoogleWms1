@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_map1"
+        android:orderInCategory="100"
+        android:title="OpenStreetMap"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map2"
+        android:orderInCategory="100"
+        android:title="1. OpenCycleMap"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map3"
+        android:orderInCategory="100"
+        android:title="2. HikeBike"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map4"
+        android:orderInCategory="100"
+        android:title="TopoMap"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map5"
+        android:orderInCategory="100"
+        android:title="MtbMap openmtbmap.org"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map6"
+        android:orderInCategory="100"
+        android:title="Stamen Terrain"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map7"
+        android:orderInCategory="100"
+        android:title="WMS States"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map8"
+        android:orderInCategory="100"
+        android:title="WMS Population"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map9"
+        android:orderInCategory="100"
+        android:title="Hydda Full Map"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map10"
+        android:orderInCategory="100"
+        android:title="Hydda Base Map"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map11"
+        android:orderInCategory="100"
+        android:title="Esri world Street Map"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map12"
+        android:orderInCategory="100"
+        android:title="Baidu chinese"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map13"
+        android:orderInCategory="100"
+        android:title="Komoot map"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map14"
+        android:orderInCategory="100"
+        android:title="Mapquest"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map15"
+        android:orderInCategory="100"
+        android:title="Mapquest hybrid"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map16"
+        android:orderInCategory="100"
+        android:title="Maptoolkit topo"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map17"
+        android:orderInCategory="100"
+        android:title="Michelin"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map18"
+        android:orderInCategory="100"
+        android:title="Skobbler outdoor"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map19"
+        android:orderInCategory="100"
+        android:title="TomTom"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map20"
+        android:orderInCategory="100"
+        android:title="Map1EU"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map21"
+        android:orderInCategory="100"
+        android:title="Visit Norway"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map22"
+        android:orderInCategory="100"
+        android:title="F4 map"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map23"
+        android:orderInCategory="100"
+        android:title="WMS Maaamet map"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map24"
+        android:orderInCategory="100"
+        android:title="WMS Tallinn.ee map"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map25"
+        android:orderInCategory="100"
+        android:title="WMS Maamet reljef"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map26"
+        android:orderInCategory="100"
+        android:title="Delfi.ee"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map27"
+        android:orderInCategory="100"
+        android:title="WMS Maamet cadastral"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_map28"
+        android:orderInCategory="100"
+        android:title="WMS Maamet colorful map"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+</menu>
